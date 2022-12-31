@@ -8,6 +8,13 @@ I really only made the sever side along with a few tweaks to how data was proces
 
 > Note: this project was made in 3 hours by a partially sleep depraved (not a spelling error) individual
 
+For Usage:
+    * Go to ~/serber 
+    * Edit `config.json` with your music directory location 
+    * npm install
+    * run server with `node server.js`
+    * Open View.html
+
 Use at your own risk.
 TS: 02:43 AM 01-01-2023
 
