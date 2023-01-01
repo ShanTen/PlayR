@@ -13,6 +13,16 @@ body {
   overflow-y: scroll;
 }
 
+.hidden-fullname {
+  display: none;
+}
+    
+.track-name:hover + .hidden-fullname {
+  display: block;
+  position: relative;
+  color: rgb(59, 59, 59);
+}
+
 .playR {
   height: 95vh;
   display: flex;

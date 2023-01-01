@@ -123,8 +123,15 @@ function loadTrack(track_index) {
     track_art.style.backgroundImage = "url('https://www.scottishculture.org/themes/scottishculture/images/music_placeholder.png')"; 
   }
 
-  
   track_name.textContent = track_list[track_index].title;
+  
+  if (track_list[track_index].title.length > 20){
+    track_name.textContent = track_list[track_index].title.slice(0,20)+'...';
+  }
+
+  let hidden = document.querySelector('.hidden-fullname');
+  hidden.textContent = track_list[track_index].title;
+
   track_artist.textContent = track_list[track_index].artist;
 
   now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
