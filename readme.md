@@ -20,8 +20,8 @@ Use at your own risk.
 
 More shots:
 
-![Screen Shot 2](https://cdn.discordapp.com/attachments/867447574784639047/1059095798006157362/image.png?width=448&height=670)
-![Screen Shot 3](https://cdn.discordapp.com/attachments/867447574784639047/1059096369677213726/image.png?width=448&height=670)
+<img height="80px" src="https://cdn.discordapp.com/attachments/867447574784639047/1059095798006157362/image.png" />
+<img height="80px" src="https://cdn.discordapp.com/attachments/867447574784639047/1059096369677213726/image.png" />
 
 TS: 02:43 AM 01-01-2023
 
