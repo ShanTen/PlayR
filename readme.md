@@ -1,6 +1,6 @@
 # PlayR - A portable (bad) MP3 player
 
-![Screen Shot](https://media.discordapp.net/attachments/867447574784639047/1058855569802395759/image.png?width=448&height=670)
+![Screen Shot 1](https://media.discordapp.net/attachments/867447574784639047/1058855569802395759/image.png?width=448&height=670)
 
 The UI is stolen from [here](https://www.geeksforgeeks.org/create-a-music-player-using-javascript/)
 
@@ -17,6 +17,12 @@ For Usage:
 * Open View.html
 
 Use at your own risk.
+
+More shots:
+
+![Screen Shot 2](https://cdn.discordapp.com/attachments/867447574784639047/1059095798006157362/image.png?width=448&height=670)
+![Screen Shot 3](https://cdn.discordapp.com/attachments/867447574784639047/1059096369677213726/image.png?width=448&height=670)
+
 TS: 02:43 AM 01-01-2023
 
 ~Shan10 Jan 1 2023

@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())  
 
 import { readFile } from 'fs/promises';
+import { error } from 'console';
 const config = JSON.parse(
   await readFile('./config.json')
 );
@@ -66,6 +67,7 @@ async function parseMp3Files(folderPath) {
             }
         } else {
             console.log("Why am i here? just to suffer.")
+            throw error;
         }
       }
     }
@@ -79,7 +81,6 @@ app.get('/api/getMetaData', async (req, res) => {
 
   try {
       var toSend = await parseMp3Files(folderLocation);
-      //console.log(toSend[0].picture)
       res.send(toSend)
   } catch (err) {
       console.log("An error occurred.");
